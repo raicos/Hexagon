@@ -1,0 +1,46 @@
+body{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    min-width: 640px;
+    min-height: 480px;
+    background-color: white;
+    
+}
+
+h1{
+    text-align: center;
+    vertical-align: middle;
+    
+font-family: 'Adamina', serif;
+    transition: 0.5s;
+}
+
+h1:hover{
+    background: #FD610D;
+    color: #fff;
+}
+
+.center-middle{
+    position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    font-size: 100px;
+	padding: 15px 30px;
+	background: rgba(0,0,0,0);
+    border: 3px solid #FD610D;
+	color: #FD610D;
+	text-align: center;
+	width: 450px;
+}
+
+canvas {
+    z-index: -1;
+}
+
